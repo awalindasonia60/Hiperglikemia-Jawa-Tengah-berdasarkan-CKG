@@ -55,10 +55,17 @@
 }
 
       #bottom-left-container {
-        position: absolute;
+        position: fixed;
         bottom: 10px;
         left: 10px;
       }
+
+      #bottom-left-cointainer img {
+  width: 120px;    /* atur ukuran kecil di sini */
+  height: auto;    /* biar proporsional */
+  opacity: 0.95;   /* sedikit transparan biar lembut */
+  border-radius: 6px; /* opsional, biar sudut lembut */
+}
     </style>
 
     <title>Hiperglikemia Jawa Tengah berdasarkan CKG</title>
@@ -104,6 +111,7 @@
     <script src="./resources/qgis2web.js"></script>
   </body>
 </html>
+
 
 
 
