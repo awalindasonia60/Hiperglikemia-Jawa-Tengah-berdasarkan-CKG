@@ -408,4 +408,9 @@ td video {
 .bottom-attribution > li {
 	padding-left: 8px !important;
 	list-style: none;	
+
 	}
+
+#popup-content b {
+  white-space: nowrap;
+}
