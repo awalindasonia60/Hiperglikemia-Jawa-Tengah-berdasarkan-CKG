@@ -411,6 +411,10 @@ td video {
 
 	}
 
-#popup-content b {
-  white-space: nowrap;
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* jarak kecil antar teks */
+  white-space: nowrap; /* biar teks ga turun ke baris baru */
 }
+
