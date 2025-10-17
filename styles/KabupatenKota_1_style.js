@@ -98,7 +98,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
       
     if (feature.get("WADMKK") === "Semarang") {
       offsetX = 20;
-      offsetY = 15;
+      offsetY = -20;
     }
        
     if (feature.get("WADMKK") === "Kendal") {
