@@ -14,12 +14,18 @@ var style_KabupatenKota_1 = function(feature, resolution){
     var bufferColor = "#fafafa";
     var bufferWidth = 1.5;
     var textAlign = "left";
-    var offsetX = -5;
+    var offsetX = 0;
     var offsetY = 0;
     var placement = 'point';
     if (feature.get("WADMKK") !== null) {
         labelText = String(feature.get("WADMKK"));
     }
+
+    if (feature.get("WADMKK") === "Rembang") {
+      offsetX = -10;
+      offsetY = 0;
+    }
+    
     if (value >= 14000.000000 && value <= 51000.000000) {
             style = [ new ol.style.Style({
         stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.988}),fill: new ol.style.Fill({color: 'rgba(236,255,255,0.92)'}),
