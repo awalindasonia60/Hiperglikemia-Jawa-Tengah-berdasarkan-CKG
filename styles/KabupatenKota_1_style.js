@@ -42,7 +42,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
     }
        
     if (feature.get("WADMKK") === "Pemalang") {
-      offsetX = -7;
+      offsetX = -15;
       offsetY = 10;
     }
 
@@ -53,11 +53,11 @@ var style_KabupatenKota_1 = function(feature, resolution){
     
     if (feature.get("WADMKK") === "Kebumen") {
       offsetX = -15;
-      offsetY = -10;
+      offsetY = 10;
     }
     
      if (feature.get("WADMKK") === "Banjarnegara") {
-      offsetX = -20;
+      offsetX = -25;
       offsetY = 10;
     }
     
@@ -98,7 +98,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
       
     if (feature.get("WADMKK") === "Semarang") {
       offsetX = 20;
-      offsetY = 0;
+      offsetY = 15;
     }
        
     if (feature.get("WADMKK") === "Kendal") {
@@ -118,7 +118,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
       
     if (feature.get("WADMKK") === "Demak") {
       offsetX = -20;
-      offsetY = 15;
+      offsetY = -10;
     }
       
     if (feature.get("WADMKK") === "Kudus") {
@@ -158,7 +158,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
      
     if (feature.get("WADMKK") === "Wonogiri") {
       offsetX = 10;
-      offsetY = 10;
+      offsetY = 20;
     }
     
     if (value >= 14000.000000 && value <= 51000.000000) {
