@@ -92,36 +92,21 @@
       padding: 2px 6px;
     }
 
-    /* Legenda bawah kiri */
-    #bottom-left-container {
-      width: 180px;
-      bottom: 5px;
-      left: 5px;
-    }
-
-    #bottom-left-container img {
-      width: 100%;
-      height: auto;
-    }
-
-     /* Ukuran tulisan di legenda */
   #bottom-left-container {
-    width: 150px;     /* lebih kecil dari sebelumnya */
+    width: 140px; /* perkecil lebar kontainer */
+    bottom: 8px; /* sedikit naik dari bawah */
+    left: 8px;
+    padding: 4px;
+    border-radius: 6px;
   }
 
   #bottom-left-container img {
     width: 100%;
     height: auto;
+    transform: scale(0.8); /* perkecil isi gambarnya */
+    transform-origin: bottom left;
   }
-
-  /* Kalau pakai teks legenda (bukan cuma gambar) */
-  #bottom-left-container h4,
-  #bottom-left-container p,
-  #bottom-left-container span {
-    font-size: 0.75rem;
-    line-height: 1.1rem;
-    }
-  }
+}
     </style>
 
     <title>Hiperglikemia Jawa Tengah berdasarkan CKG</title>
@@ -167,6 +152,7 @@
     <script src="./resources/qgis2web.js"></script>
   </body>
 </html>
+
 
 
 
