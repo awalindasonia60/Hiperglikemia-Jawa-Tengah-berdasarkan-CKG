@@ -30,6 +30,61 @@ var style_KabupatenKota_1 = function(feature, resolution){
       offsetX = -10;
       offsetY = 0;
     }
+
+     if (feature.get("WADMKK") === "Cilacap") {
+      offsetX = -9;
+      offsetY = 0;
+    }
+    
+    if (feature.get("WADMKK") === "Tegal") {
+      offsetX = -10;
+      offsetY = 0;
+    }
+       
+    if (feature.get("WADMKK") === "Pemalang") {
+      offsetX = -7;
+      offsetY = -10;
+    }
+
+     if (feature.get("WADMKK") === "Purbalingga") {
+      offsetX = -15;
+      offsetY = 0;
+    }
+    
+    if (feature.get("WADMKK") === "Kebumen") {
+      offsetX = -15;
+      offsetY = 0;
+    }
+    
+     if (feature.get("WADMKK") === "Banjarnegara") {
+      offsetX = -15;
+      offsetY = 0;
+    }
+    
+    if (feature.get("WADMKK") === "Pekalongan") {
+      offsetX = -15;
+      offsetY = 0;
+    }
+      
+     if (feature.get("WADMKK") === "Batang") {
+      offsetX = -17;
+      offsetY = 0;
+    }
+    
+    if (feature.get("WADMKK") === "Wonosobo") {
+      offsetX = -15;
+      offsetY = 0;
+    }
+          
+     if (feature.get("WADMKK") === "Purworejo") {
+      offsetX = -17;
+      offsetY = 0;
+    }
+    
+    if (feature.get("WADMKK") === "Wonosobo") {
+      offsetX = -15;
+      offsetY = 0;
+    }
     
     if (value >= 14000.000000 && value <= 51000.000000) {
             style = [ new ol.style.Style({
