@@ -88,11 +88,11 @@ var style_KabupatenKota_1 = function(feature, resolution){
       
     if (feature.get("WADMKK") === "Magelang") {
       offsetX = 0;
-      offsetY = 5;
+      offsetY = 15;
     }
     
     if (feature.get("WADMKK") === "Kota Semarang") {
-      offsetX = -25;
+      offsetX = -30;
       offsetY = 0;
     }
       
@@ -158,7 +158,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
      
     if (feature.get("WADMKK") === "Wonogiri") {
       offsetX = 10;
-      offsetY = 20;
+      offsetY = -20;
     }
     
     if (value >= 14000.000000 && value <= 51000.000000) {
