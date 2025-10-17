@@ -14,7 +14,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
     var bufferColor = "#fafafa";
     var bufferWidth = 1.5;
     var textAlign = "left";
-    var offsetX = 0;
+    var offsetX = -5;
     var offsetY = 0;
     var placement = 'point';
     if (feature.get("WADMKK") !== null) {
