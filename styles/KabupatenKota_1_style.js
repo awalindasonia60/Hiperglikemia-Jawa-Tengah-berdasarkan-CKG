@@ -43,7 +43,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
        
     if (feature.get("WADMKK") === "Pemalang") {
       offsetX = -7;
-      offsetY = -30;
+      offsetY = 10;
     }
 
      if (feature.get("WADMKK") === "Purbalingga") {
@@ -58,7 +58,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
     
      if (feature.get("WADMKK") === "Banjarnegara") {
       offsetX = -20;
-      offsetY = 0;
+      offsetY = 10;
     }
     
     if (feature.get("WADMKK") === "Pekalongan") {
@@ -92,7 +92,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
     }
     
     if (feature.get("WADMKK") === "Kota Semarang") {
-      offsetX = -20;
+      offsetX = -25;
       offsetY = 0;
     }
       
@@ -112,13 +112,13 @@ var style_KabupatenKota_1 = function(feature, resolution){
     }
       
     if (feature.get("WADMKK") === "Sukoharjo") {
-      offsetX = -15;
+      offsetX = -18;
       offsetY = 0;
     }
       
     if (feature.get("WADMKK") === "Demak") {
       offsetX = -20;
-      offsetY = 10;
+      offsetY = 15;
     }
       
     if (feature.get("WADMKK") === "Kudus") {
@@ -143,7 +143,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
       
     if (feature.get("WADMKK") === "Pati") {
       offsetX = -10;
-      offsetY = 5;
+      offsetY = 15;
     }
       
     if (feature.get("WADMKK") === "Blora") {
@@ -153,12 +153,12 @@ var style_KabupatenKota_1 = function(feature, resolution){
       
     if (feature.get("WADMKK") === "Karanganyar") {
       offsetX = -25;
-      offsetY = -5;
+      offsetY = 10;
     }
      
     if (feature.get("WADMKK") === "Wonogiri") {
       offsetX = 10;
-      offsetY =5;
+      offsetY = 10;
     }
     
     if (value >= 14000.000000 && value <= 51000.000000) {
