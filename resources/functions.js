@@ -1,6 +1,6 @@
 var createTextStyle = function(feature, resolution, labelText, labelFont,
                                labelFill, placement, bufferColor,
-                               bufferWidth) {
+                               bufferWidth, offsetX, offsetY) {
 
     if (feature.hide || !labelText) {
         return; 
@@ -54,3 +54,4 @@ function stripe(stripeWidth, gapWidth, angle, color) {
 
     return outerContext.createPattern(outerCanvas, 'no-repeat');
 };
+
