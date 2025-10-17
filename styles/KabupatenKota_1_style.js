@@ -22,6 +22,11 @@ var style_KabupatenKota_1 = function(feature, resolution){
     }
 
     if (feature.get("WADMKK") === "Rembang") {
+      offsetX = -15;
+      offsetY = 0;
+    }
+    
+    if (feature.get("WADMKK") === "Brebes") {
       offsetX = -10;
       offsetY = 0;
     }
