@@ -87,7 +87,7 @@ var style_KabupatenKota_1 = function(feature, resolution){
     }
       
     if (feature.get("WADMKK") === "Magelang") {
-      offsetX = 0;
+      offsetX = -15;
       offsetY = 15;
     }
     
